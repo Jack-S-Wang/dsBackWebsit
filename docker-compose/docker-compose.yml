@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  web:
+    image: 192.168.11.202:8887/dascomyunwebsite-backstage_1010:v3.18.12.5
+    ports:
+      -  "31010:21010"
+    volumes:
+      -  /home/docker/Dascomyunwebsite-backstage_1010/config/:/service/config/
+      -  /home/docker/Dascomyunwebsite-backstage_1010/logs/:/service/logs/
+      -  /home/docker/Dascomyunwebsite-backstage_1010/ts-www/:/service/ts-www/
+    container_name: 192.168.11.202:8887/dascomyunwebsite-backstage_1010
