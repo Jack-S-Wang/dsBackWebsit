@@ -103,7 +103,7 @@ public class DocumentDaoImp implements DocumentDao{
 	public Object searchShow() {
 		// TODO Auto-generated method stub
 		Query query=new Query();
-		query.addCriteria(Criteria.where("ishow").is(1));
+		query.addCriteria(Criteria.where("ishow").is(1).and("idel").is(0));
 		return template.find(query, CollectionDocument.class);
 	}
 

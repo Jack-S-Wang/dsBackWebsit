@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Built-By: DS-031
 Build-Jdk: 11.0.1
 Implementation-Title: dascomyunwebsite-backstage_1010
-Implementation-Version: v3.19.1.0
+Implementation-Version: v3.19.1.1
 Implementation-Vendor-Id: com.dascom.website
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
  -starter-parent/dascomyunwebsite-backstage_1010

@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.dascom.website</groupId>
 	<artifactId>dascomyunwebsite-backstage_1010</artifactId>
-	<version>v3.19.1.0</version>
+	<version>v3.19.1.1</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

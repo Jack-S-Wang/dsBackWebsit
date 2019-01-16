@@ -78,11 +78,11 @@ public class AppDaoImpl implements AppDao{
 					CollectionApp no1 = (CollectionApp) o1;
 					CollectionApp no2 = (CollectionApp) o2;
 					if (no1.getVersion().compareTo(no2.getVersion())>0) {
-						return 1;
+						return -1;
 					} else if (no1.getVersion().compareTo(no2.getVersion())==0) {
 						return 0;
 					} else {
-						return -1;
+						return 1;
 					}
 				}
 			});
@@ -96,11 +96,11 @@ public class AppDaoImpl implements AppDao{
 					CollectionApp no1 = (CollectionApp) o1;
 					CollectionApp no2 = (CollectionApp) o2;
 					if (no1.getVersion().compareTo(no2.getVersion())>0) {
-						return 1;
+						return -1;
 					} else if (no1.getVersion().compareTo(no2.getVersion())==0) {
 						return 0;
 					} else {
-						return -1;
+						return 1;
 					}
 				}
 			});
