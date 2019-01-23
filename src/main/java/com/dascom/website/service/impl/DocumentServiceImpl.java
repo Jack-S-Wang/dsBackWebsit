@@ -75,7 +75,7 @@ public class DocumentServiceImpl implements DocumentService{
 		document.setId(ti);
 		document.setDocument_Id(Document_Id);//属于同一个文档
 		document.setAlias(json.getString("alias"));
-		document.setCata_Id(json.getString("cata_id"));
+		document.setCata_Id(json.getString("cata_Id"));
 		document.setContent(json.getString("content"));
 		document.setModifyDate(new Date());
 		document.setName(json.getString("name"));
@@ -102,7 +102,7 @@ public class DocumentServiceImpl implements DocumentService{
 			CollectionCatalog catalog=new CollectionCatalog();
 			catalog.setId(ti);
 			catalog.setName(json.getString("name"));
-			catalog.setParentId(json.getString("cata_id"));
+			catalog.setParentId(json.getString("cata_Id"));
 			catalog.setOrder(Integer.parseInt(json.getString("order")));
 			catalog.setGenre("doc");
 			catalog.setIshow(1);
